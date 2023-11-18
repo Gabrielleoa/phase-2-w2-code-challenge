@@ -16,7 +16,7 @@ return (
   <div>
     <h1>
       <h1 color='red'>Intergalactic Bot Army</h1>
-      {/*<BotCollection onAddBot={handleAddBots}/>*/}
+      <BotCollection onAddBot={handleAddBots}/>
     </h1>
   </div>
 )
