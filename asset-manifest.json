@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phase-2-w2-code-challenge/static/css/main.e6c13ad2.css",
+    "main.js": "/phase-2-w2-code-challenge/static/js/main.81d81caf.js",
+    "index.html": "/phase-2-w2-code-challenge/index.html",
+    "main.e6c13ad2.css.map": "/phase-2-w2-code-challenge/static/css/main.e6c13ad2.css.map",
+    "main.81d81caf.js.map": "/phase-2-w2-code-challenge/static/js/main.81d81caf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.81d81caf.js"
+  ]
+}
