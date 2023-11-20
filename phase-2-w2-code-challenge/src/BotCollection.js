@@ -13,25 +13,23 @@ export default function BotCollection(onAddBot){
             health : (health),
             bot_class,
             armor : (armor),
-            avatar_url
             };
             onAddBot(newBot);
         };
-        onAddBot(newBot);
+        //onAddBot(newBot);
         setName('');
         setHealth('');
-        setBotClass('');     
-        
-    }
-    return (
-        <div>
-            <h2>YOUR ARMY !</h2>
-            <form onClick={handleClick}>
+        setBotClass('');    
+        setArmor('');
+        setAvatarUrl(''); 
 
-            </form>
+    }   
+    return(
+        <div style={{ textAlign: 'center', marginTop: '50vh', transform: 'translateY(-50%)' }}>
+            <h2>Your new army!</h2>
+    
         </div>
     )
+};
+// BotCollection.js
 
-
-    
-}

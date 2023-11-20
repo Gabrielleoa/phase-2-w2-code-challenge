@@ -1,23 +1,25 @@
 import React, { useEffect, useState } from "react";
 import BotCollection from './BotCollection';
+import YourBotArmy from "./YourBotArmy";
 
 function App() {
-  const [botArmy, setBotArmy] = useState([]);
+  const [bots, setBots] = useState([]);
   useEffect(()=> {
     fetch('http://localhost:8001/bots')
   .then((response) => response.json())
-  .then((data) => setBotArmy(data));
+  .then((data) => setBots(data));
   
 }, []);
 
 const handleAddBots = (newBot) => {
-  setBotArmy([...botArmy, newBot]);
+  setBots([...bots, newBot]);
 };
 return (
   <div>
     
-      <h1 color='red'>Intergalactic Bot Army</h1>
+      <h1>Intergalactic Bot Army</h1>
       <BotCollection onAddBot={handleAddBots}/>
+      <YourBotArmy bots={bots}/>
     
   </div>
 )
@@ -26,3 +28,5 @@ return (
 
   
 export default App;
+
+// App.js
