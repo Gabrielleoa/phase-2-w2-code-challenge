@@ -1,38 +1,50 @@
-.App {
+/* styles.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Arial, sans-serif';
+}
+
+h1 {
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #555;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bot-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bot-card h3 {
+  margin-bottom: 5px;
+}
+
+.bot-actions {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.bot-actions button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.your-bot-army {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.your-bot-army img{
+  height: 100px;
+  width: 1000px;
 }

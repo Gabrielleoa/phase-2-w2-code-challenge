@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const YourBotArmy = ({bots}) => {
     return (
-        <div>
+        <div className="your-bot-army">
             <h2>Intergalactic Bot Army</h2>
-            <div key ={bots.id}> 
+            <div key ={bots.id} className="bot-card"> 
             <h4>{bots.name}</h4>
             <h4><img src={bots.avatar_url} alt= {bots.name}/></h4>
             <h1>{bots.health}</h1>
