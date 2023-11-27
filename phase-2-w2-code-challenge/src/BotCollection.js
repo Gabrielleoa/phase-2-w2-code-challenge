@@ -27,6 +27,7 @@ export default function BotCollection(onAddBot){
     return(
         <div style={{ textAlign: 'center', marginTop: '50vh', transform: 'translateY(-50%)' }}>
             <h2>Your new army!</h2>
+            
     
         </div>
     )
